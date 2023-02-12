@@ -5,6 +5,7 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
+  |
   - type: markdown |
     attributes:
       value: 

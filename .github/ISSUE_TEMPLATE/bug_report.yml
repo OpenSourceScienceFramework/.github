@@ -41,12 +41,11 @@ body:
       options:
         - 0.0.0 (Default)
   attributes:
-      label: Operating system
+      label: Operating system:
       description: How can we get in touch with you if we need more info?
       placeholder: Linux, Windows, Mac, Arch Linux
     validations:
       required: false
-        
 
     validations:
       required: true

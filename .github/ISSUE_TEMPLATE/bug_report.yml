@@ -5,9 +5,9 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
-- type: markdown 
+  - type: markdown
     attributes:
-      value: 
+      value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
@@ -24,13 +24,6 @@ body:
       description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "A bug happened!"
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: How can we recreate issue?
-      description: Tell us commands/processes needed to create the bug?
-      placeholder: Tell us what you did ... we wont judge!
-      value: "I did an oopsie!"
     validations:
       required: true
   - type: dropdown
@@ -40,13 +33,6 @@ body:
       description: What version of our software are you running?
       options:
         - 0.0.0 (Default)
-  attributes:
-      label: Operating system:
-      description: How can we get in touch with you if we need more info?
-      placeholder: Linux, Windows, Mac, Arch Linux
-    validations:
-      required: false
-
     validations:
       required: true
   - type: dropdown

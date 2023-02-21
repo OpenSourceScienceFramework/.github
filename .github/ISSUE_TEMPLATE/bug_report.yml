@@ -35,6 +35,12 @@ body:
         - 0.0.0 (Default)
     validations:
       required: true
+  - type: textarea
+    id: operating-system
+    attributes:
+      label: What Operating System
+      description: Tell us what OS you are using
+      placeholder: Linux
   - type: dropdown
     id: browsers
     attributes:
